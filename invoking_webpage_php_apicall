@@ -1,0 +1,27 @@
+<?php
+$qstr=$_GET["sex"].",".$_GET["age"].",".$_GET["freq"].",".$_GET["snp1"].",".$_GET["snp2"].",".$_GET["snp3"].",".$_GET["snp4"].",".$_GET["snp5"].",".$_GET["snp6"].",".$_GET["snp7"].",".$_GET["snp8"].",".$_GET["snp9"].",".$_GET["snp10"].",".$_GET["snp11"].",".$_GET["snp12"].",".$_GET["snp13"].",".$_GET["snp14"].",".$_GET["snp15"].",".$_GET["snp16"].",".$_GET["snp17"].",".$_GET["snp18"].",".$_GET["snp19"].",".$_GET["snp20"].",".$_GET["snp21"].",".$_GET["snp22"];
+$qstr='{"data":"'.$qstr.'"}';
+echo $qstr."<br>Outcome: ";
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://8nzgpxrjgk.execute-api.us-east-1.amazonaws.com/test/prediction',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'POST',
+  //CURLOPT_POSTFIELDS =>'{"data":"0,60,3,2,1,0,1,1,1,1,2,0,1,1,2,2,1,1,0,2,1,2,0,0,0"}',
+  CURLOPT_POSTFIELDS =>$qstr,
+  CURLOPT_HTTPHEADER => array(
+    'Content-Type: application/json'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+?>
