@@ -1,0 +1,30 @@
+<form id="new.pred.form" action="/case-studies/obesity-risk-prediction-outcome" method="get">
+<strong>Weekly drinking frequency</strong> <input type="text" id="freq" name="freq" value="3" size=4>
+<br>
+<strong>Age</strong> <input type="text" id="age" name="age" value="45" size=4>
+<br>
+<strong>Gender</strong>: Female <input type="radio" value="0" name="sex" checked> Male <input type="radio" value="1" name="sex"> <br>
+<strong>rs3101336</strong>: TT <input type="radio" value="0" name="snp1" checked> TC <input type="radio" value="1" name="snp1"> CC <input type="radio" value="2" name="snp1"><br>
+<strong>rs543874</strong>: AA <input type="radio" value="0" name="snp2" checked> AG <input type="radio" value="1" name="snp2"> GG <input type="radio" value="2" name="snp2"><br>
+<strong>rs2820292</strong>: AA <input type="radio" value="0" name="snp3" checked> AC <input type="radio" value="1" name="snp3"> CC <input type="radio" value="2" name="snp3"><br>
+<strong>rs7903146</strong>: TT <input type="radio" value="0" name="snp4" checked> TC <input type="radio" value="1" name="snp4"> CC <input type="radio" value="2" name="snp4"><br>
+<strong>rs2176598</strong>: CC <input type="radio" value="0" name="snp5" checked> CT <input type="radio" value="1" name="snp5"> TT <input type="radio" value="2" name="snp5"><br>
+<strong>rs3817334</strong>: CC <input type="radio" value="0" name="snp6" checked> CT <input type="radio" value="1" name="snp6"> TT <input type="radio" value="2" name="snp6"><br>
+<strong>rs7138803</strong>: GG <input type="radio" value="0" name="snp7" checked> GA <input type="radio" value="1" name="snp7"> AA <input type="radio" value="2" name="snp7"><br>
+<strong>rs11057405</strong>: AA <input type="radio" value="0" name="snp8" checked> AG <input type="radio" value="1" name="snp8"> GG <input type="radio" value="2" name="snp8"><br>
+<strong>rs11847697</strong>: CC <input type="radio" value="0" name="snp9" checked> CT <input type="radio" value="1" name="snp9"> TT <input type="radio" value="2" name="snp9"><br>
+<strong>rs9925964</strong>: GG <input type="radio" value="0" name="snp10" checked> GA <input type="radio" value="1" name="snp10"> AA <input type="radio" value="2" name="snp10"><br>
+<strong>rs29941</strong>: AA <input type="radio" value="0" name="snp11" checked> AG <input type="radio" value="1" name="snp11"> GG <input type="radio" value="2" name="snp11"><br>
+<strong>rs2075650</strong>: GG <input type="radio" value="0" name="snp12" checked> GA <input type="radio" value="1" name="snp12"> AA <input type="radio" value="2" name="snp12"><br>
+<strong>rs3810291</strong>: GG <input type="radio" value="0" name="snp13" checked> GA <input type="radio" value="1" name="snp13"> AA <input type="radio" value="2" name="snp13"><br>
+<strong>rs2836754</strong>: TT <input type="radio" value="0" name="snp14" checked> TC <input type="radio" value="1" name="snp14"> CC <input type="radio" value="2" name="snp14"><br>
+<strong>rs10938397</strong>: AA <input type="radio" value="0" name="snp15" checked> AG <input type="radio" value="1" name="snp15"> GG <input type="radio" value="2" name="snp15"><br>
+<strong>rs13107325</strong>: CC <input type="radio" value="0" name="snp16" checked> CT <input type="radio" value="1" name="snp16"> TT <input type="radio" value="2" name="snp16"><br>
+<strong>rs11727676</strong>: CC <input type="radio" value="0" name="snp17" checked> CT <input type="radio" value="1" name="snp17"> TT <input type="radio" value="2" name="snp17"><br>
+<strong>rs2112347</strong>: GG <input type="radio" value="0" name="snp18" checked> GT <input type="radio" value="1" name="snp18"> TT <input type="radio" value="2" name="snp18"><br>
+<strong>rs1167827</strong>: AA <input type="radio" value="0" name="snp19" checked> AG <input type="radio" value="1" name="snp19"> GG <input type="radio" value="2" name="snp19"><br>
+<strong>rs2245368</strong>: TT <input type="radio" value="0" name="snp20" checked> TC <input type="radio" value="1" name="snp20"> CC <input type="radio" value="2" name="snp20"><br>
+<strong>rs2033732</strong>: TT <input type="radio" value="0" name="snp21" checked> TC <input type="radio" value="1" name="snp21"> CC <input type="radio" value="2" name="snp21"><br>
+<strong>rs10968576</strong>: AA <input type="radio" value="0" name="snp22" checked> AG <input type="radio" value="1" name="snp22"> GG <input type="radio" value="2" name="snp22"><br>
+<input type="submit" value="Submit">   
+</form>
